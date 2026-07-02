@@ -1,0 +1,10 @@
+{
+  "homeHasBottomGuide": true,
+  "studentHasSubtitle": true,
+  "studentHasSteps": true,
+  "studentHasDeviceGuide": true,
+  "screenshots": [
+    ".omo/ulw-loop/intuitive-ui/evidence/red-home-before.png",
+    ".omo/ulw-loop/intuitive-ui/evidence/red-student-before.png"
+  ]
+}

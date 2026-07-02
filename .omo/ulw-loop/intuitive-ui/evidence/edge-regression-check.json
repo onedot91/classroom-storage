@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "emptyText": "처음으로\n\n7번 자료\n\n그림을 꾹 눌러 저장해요\n자료 준비 중",
+  "invalidText": "1~23번만 선택해요\n처음으로",
+  "screenshots": [
+    "final-student-7-empty-mobile.png",
+    "final-invalid-mobile.png"
+  ]
+}

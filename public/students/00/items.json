@@ -1,0 +1,14 @@
+[
+  {
+    "title": "좋아요",
+    "file": "like.png"
+  },
+  {
+    "title": "고마워요",
+    "file": "thanks.png"
+  },
+  {
+    "title": "다했어요",
+    "file": "done.png"
+  }
+]

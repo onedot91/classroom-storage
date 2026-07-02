@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "createdAt": "2026-07-02T00:16:51.358Z",
+  "updatedAt": "2026-07-02T00:27:12.968Z",
+  "briefPath": ".omo/ulw-loop/intuitive-ui/brief.md",
+  "goalsPath": ".omo/ulw-loop/intuitive-ui/goals.json",
+  "ledgerPath": ".omo/ulw-loop/intuitive-ui/ledger.jsonl",
+  "codexGoalMode": "aggregate",
+  "goals": [
+    {
+      "id": "G001-ui-ux",
+      "title": "불필요한 텍스트를 제거하고 우리 반 저장함 UI/UX 직관성 개선",
+      "objective": "불필요한 텍스트를 제거하고 우리 반 저장함 UI/UX 직관성 개선",
+      "status": "complete",
+      "successCriteria": [
+        {
+          "id": "C001",
+          "scenario": "happy path for: 불필요한 텍스트를 제거하고 우리 반 저장함 UI/UX 직관성 개선",
+          "userModel": "happy",
+          "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 1.",
+          "essential": true,
+          "capturedEvidence": "RED .omo/ulw-loop/intuitive-ui/evidence/red-before.json; GREEN .omo/ulw-loop/intuitive-ui/evidence/final-ui-check.json; screenshots final-home-mobile.png final-student-1-mobile.png; cleanup: killed-preview-25746 port-4174-free",
+          "status": "pass",
+          "capturedAt": "2026-07-02T00:23:13.033Z"
+        },
+        {
+          "id": "C002",
+          "scenario": "edge case (boundary/empty/malformed)",
+          "userModel": "edge",
+          "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: 불필요한 텍스트를 제거하고 우리 반 저장함 UI/UX 직관성 개선.",
+          "essential": true,
+          "capturedEvidence": "Edge empty student route /student/7 shows only short '자료 준비 중'; .omo/ulw-loop/intuitive-ui/evidence/edge-regression-check.json + final-student-7-empty-mobile.png; cleanup: killed-preview-25746 port-4174-free",
+          "status": "pass",
+          "capturedAt": "2026-07-02T00:23:13.056Z"
+        },
+        {
+          "id": "C003",
+          "scenario": "regression: adjacent surface still works",
+          "userModel": "regression",
+          "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: 불필요한 텍스트를 제거하고 우리 반 저장함 UI/UX 직관성 개선.",
+          "essential": false,
+          "capturedEvidence": "Regression invalid route /student/99 still returns home action with short '1~23번만 선택해요'; .omo/ulw-loop/intuitive-ui/evidence/edge-regression-check.json + final-invalid-mobile.png; build passed; cleanup: killed-preview-25746 port-4174-free",
+          "status": "pass",
+          "capturedAt": "2026-07-02T00:23:13.079Z"
+        }
+      ],
+      "attempt": 0,
+      "createdAt": "2026-07-02T00:16:51.358Z",
+      "updatedAt": "2026-07-02T00:27:12.968Z",
+      "completedAt": "2026-07-02T00:27:12.968Z",
+      "evidence": "All criteria pass. RED: red-before.json. GREEN: final-ui-check.json, edge-regression-check.json. Build: npm run build pass. Cleanup: killed-preview-25746 port-4174-free"
+    }
+  ],
+  "codexObjective": "Complete the durable ulw-loop plan in .omo/ulw-loop/intuitive-ui/goals.json, including later accepted/appended stories, under the original brief constraints; use .omo/ulw-loop/intuitive-ui/ledger.jsonl as the audit trail.",
+  "aggregateCompletion": {
+    "status": "complete",
+    "completedAt": "2026-07-02T00:27:12.968Z",
+    "evidence": "All criteria pass. RED: red-before.json. GREEN: final-ui-check.json, edge-regression-check.json. Build: npm run build pass. Cleanup: killed-preview-25746 port-4174-free",
+    "codexGoal": {
+      "goal": {
+        "threadId": "019f2024-123b-71e1-aa3d-353926f2735b",
+        "objective": "Complete the durable ulw-loop plan in .omo/ulw-loop/intuitive-ui/goals.json, including later accepted/appended stories, under the original brief constraints; use .omo/ulw-loop/intuitive-ui/ledger.jsonl as the audit trail.",
+        "status": "complete",
+        "tokensUsed": 0,
+        "timeUsedSeconds": 18,
+        "createdAt": 1782951856,
+        "updatedAt": 1782951874
+      }
+    }
+  }
+}

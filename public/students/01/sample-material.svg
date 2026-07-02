@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">샘플 자료 이미지</title>
+  <desc id="desc">우리 반 저장함에서 길게 눌러 저장하는 방법을 확인하기 위한 샘플 이미지</desc>
+  <rect width="1200" height="900" fill="#eef7ff"/>
+  <circle cx="270" cy="245" r="118" fill="#ffb84d"/>
+  <circle cx="930" cy="210" r="92" fill="#38b898"/>
+  <rect x="145" y="150" width="910" height="600" rx="54" fill="#ffffff" stroke="#d8e6f3" stroke-width="10"/>
+  <path d="M320 570 C430 465 535 465 645 570 C750 470 850 470 940 570 L940 675 L320 675 Z" fill="#1769d2" opacity="0.14"/>
+  <circle cx="500" cy="382" r="72" fill="#1769d2"/>
+  <circle cx="700" cy="382" r="72" fill="#38b898"/>
+  <rect x="395" y="485" width="410" height="56" rx="28" fill="#ffb84d"/>
+  <text x="600" y="300" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="72" font-weight="800" fill="#182235">샘플 자료</text>
+  <text x="600" y="625" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="42" font-weight="800" fill="#182235">그림을 꾹 눌러 저장해요</text>
+</svg>

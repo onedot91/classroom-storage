@@ -1,0 +1,27 @@
+{
+  "pass": true,
+  "results": [
+    {
+      "viewport": "mobile",
+      "homeButtons": 23,
+      "cards": 1,
+      "images": 1,
+      "bigLinks": 1,
+      "backButtons": 1,
+      "emptyStateShort": true,
+      "removedTextPresent": [],
+      "pass": true
+    },
+    {
+      "viewport": "desktop",
+      "homeButtons": 23,
+      "cards": 1,
+      "images": 1,
+      "bigLinks": 1,
+      "backButtons": 1,
+      "emptyStateShort": true,
+      "removedTextPresent": [],
+      "pass": true
+    }
+  ]
+}

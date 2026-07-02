@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/student/:number",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/student/:number/",
+      "destination": "/index.html"
+    }
+  ]
+}
