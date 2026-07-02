@@ -81,7 +81,7 @@ export function StudentPage(props: {
       </nav>
       <header className="student-header">
         <p className="site-kicker">{props.number}번 자료</p>
-        <h1>그림을 꾹 눌러 저장해요</h1>
+        <h1>저장 버튼을 눌러요</h1>
       </header>
       <MaterialList folder={folder} loadState={loadState} />
     </main>
@@ -146,7 +146,9 @@ function MaterialCard(props: {
           />
         )}
       </div>
-      <p className="save-hint">꾹 눌러 저장</p>
+      <a className="save-button" href={imagePath} download={props.item.file}>
+        이미지 저장
+      </a>
     </article>
   );
 }

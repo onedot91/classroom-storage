@@ -103,11 +103,11 @@ All spacing derives from 4px.
 - **Motion**: transform on active only.
 
 ### Material Card
-- **Structure**: title, image frame, saving hint, direct image link.
+- **Structure**: title, image frame, save button.
 - **Variants**: normal, image-error.
 - **Spacing**: `--space-4` to `--space-6`.
 - **States**: default, image loading failure.
-- **Accessibility**: image has alt text; direct image link opens a new tab.
+- **Accessibility**: image has alt text; save button uses the direct image path with `download`.
 - **Motion**: card uses static depth; image long-press is never blocked.
 
 ### Empty State

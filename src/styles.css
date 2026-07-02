@@ -128,7 +128,8 @@ h1 {
 .number-button,
 .primary-button,
 .secondary-button,
-.small-button {
+.small-button,
+.save-button {
   min-height: 48px;
   border: 1px solid transparent;
   border-radius: 16px;
@@ -149,21 +150,24 @@ h1 {
 }
 
 .number-button:hover,
-.primary-button:hover {
+.primary-button:hover,
+.save-button:hover {
   background: var(--accent-hover);
 }
 
 .number-button:active,
 .primary-button:active,
 .secondary-button:active,
-.small-button:active {
+.small-button:active,
+.save-button:active {
   transform: translateY(1px) scale(0.99);
 }
 
 .number-button:focus-visible,
 .primary-button:focus-visible,
 .secondary-button:focus-visible,
-.small-button:focus-visible {
+.small-button:focus-visible,
+.save-button:focus-visible {
   outline: 4px solid rgb(255 184 77 / 0.7);
   outline-offset: 3px;
 }
@@ -182,12 +186,14 @@ h1 {
 
 .primary-button,
 .secondary-button,
-.small-button {
+.small-button,
+.save-button {
   padding: var(--space-3) var(--space-5);
   font-weight: 800;
 }
 
-.primary-button {
+.primary-button,
+.save-button {
   background: var(--accent-primary);
   color: var(--text-inverse);
 }
@@ -204,6 +210,15 @@ h1 {
   min-height: 42px;
   padding: var(--space-2) var(--space-4);
   font-size: 14px;
+}
+
+.save-button {
+  display: inline-grid;
+  place-items: center;
+  justify-self: center;
+  min-width: 148px;
+  text-decoration: none;
+  box-shadow: var(--shadow-default);
 }
 
 .materials {
@@ -250,14 +265,6 @@ h1 {
   margin: 0;
   padding: var(--space-6);
   color: var(--status-error);
-  font-size: 17px;
-  font-weight: 800;
-  text-align: center;
-}
-
-.save-hint {
-  margin: 0;
-  color: var(--text-primary);
   font-size: 17px;
   font-weight: 800;
   text-align: center;
