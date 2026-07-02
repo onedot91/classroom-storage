@@ -194,7 +194,7 @@ async function saveImageFile(params: {
     title: params.title,
   };
 
-  if (navigator.canShare?.(shareData) === true && navigator.share !== undefined) {
+  if (navigator.share !== undefined && navigator.canShare?.(shareData) !== false) {
     await navigator.share(shareData);
     return;
   }
