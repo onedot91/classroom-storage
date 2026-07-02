@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "createdAt": "2026-07-02T00:56:37.512Z",
+  "updatedAt": "2026-07-02T01:04:22.136Z",
+  "briefPath": ".omo/ulw-loop/kakao-emoticon/brief.md",
+  "goalsPath": ".omo/ulw-loop/kakao-emoticon/goals.json",
+  "ledgerPath": ".omo/ulw-loop/kakao-emoticon/ledger.jsonl",
+  "codexGoalMode": "aggregate",
+  "goals": [
+    {
+      "id": "G001-0-3-png",
+      "title": "0번 예시 이미지 3개를 카카오톡 채팅에서 이모티콘처럼 쓰기 더 적합한 작은 투명 PNG로 최적화하고, 저장 화면에서 투명...",
+      "objective": "0번 예시 이미지 3개를 카카오톡 채팅에서 이모티콘처럼 쓰기 더 적합한 작은 투명 PNG로 최적화하고, 저장 화면에서 투명 PNG임이 헷갈리지 않도록 표시를 정리한다.",
+      "status": "complete",
+      "successCriteria": [
+        {
+          "id": "C001",
+          "scenario": "CLI parsed image dump proves public/students/00/{like,thanks,done}.png are 240x240 RGBA PNGs, transparent at all four corners, each below 120KB, and content alpha bbox remains non-empty.",
+          "userModel": "happy",
+          "expectedEvidence": ".omo/ulw-loop/kakao-emoticon/evidence/green-assets.json plus command stdout",
+          "essential": true,
+          "capturedEvidence": ".omo/ulw-loop/kakao-emoticon/evidence/green-assets.json: all three PNGs are 240x240 RGBA, corner alpha [0,0,0,0], under 120KB, non-empty alpha bbox; checker previews generated in same evidence dir | cleanup: no runtime spawned for CLI image parse",
+          "status": "pass",
+          "capturedAt": "2026-07-02T01:01:55.878Z"
+        },
+        {
+          "id": "C002",
+          "scenario": "Browser QA opens /student/0 on a local Vite preview and asserts three cards render, no '크게 보기' link exists, and each rendered image reports naturalWidth/naturalHeight 240 with currentSrc under /students/00/.",
+          "userModel": "edge",
+          "expectedEvidence": ".omo/ulw-loop/kakao-emoticon/evidence/browser-qa.json and .omo/ulw-loop/kakao-emoticon/evidence/student-0.png",
+          "essential": true,
+          "capturedEvidence": ".omo/ulw-loop/kakao-emoticon/evidence/browser-qa.json and student-0.png: /student/0 has 3 cards, 0 large-view links, all images natural/rendered 240x240 under /students/00/ | cleanup: stopped Vite session 42174; lsof -i :5174 empty; browser closed",
+          "status": "pass",
+          "capturedAt": "2026-07-02T01:02:06.676Z"
+        },
+        {
+          "id": "C003",
+          "scenario": "npm run build completes after the asset/CSS changes and the temporary QA runtime leaves no Playwright dependency installed.",
+          "userModel": "regression",
+          "expectedEvidence": ".omo/ulw-loop/kakao-emoticon/evidence/build.txt and cleanup command stdout",
+          "essential": false,
+          "capturedEvidence": ".omo/ulw-loop/kakao-emoticon/evidence/build.txt: npm run build completed; playwright-cleanup.txt shows npm ls playwright --depth=0 empty | cleanup: npm uninstall --no-save playwright completed; lsof -i :5174 empty",
+          "status": "pass",
+          "capturedAt": "2026-07-02T01:01:55.937Z"
+        }
+      ],
+      "attempt": 0,
+      "createdAt": "2026-07-02T00:56:37.512Z",
+      "updatedAt": "2026-07-02T01:04:22.136Z",
+      "completedAt": "2026-07-02T01:04:22.136Z",
+      "evidence": "C001 green-assets.json; C002 browser-qa.json + student-0.png; C003 build.txt + playwright-cleanup.txt all passed with cleanup receipts."
+    }
+  ],
+  "codexObjective": "Complete the durable ulw-loop plan in .omo/ulw-loop/kakao-emoticon/goals.json, including later accepted/appended stories, under the original brief constraints; use .omo/ulw-loop/kakao-emoticon/ledger.jsonl as the audit trail.",
+  "aggregateCompletion": {
+    "status": "complete",
+    "completedAt": "2026-07-02T01:04:22.136Z",
+    "evidence": "C001 green-assets.json; C002 browser-qa.json + student-0.png; C003 build.txt + playwright-cleanup.txt all passed with cleanup receipts.",
+    "codexGoal": {
+      "threadId": "019f2024-123b-71e1-aa3d-353926f2735b",
+      "objective": "Complete the durable ulw-loop plan in .omo/ulw-loop/kakao-emoticon/goals.json, including later accepted/appended stories, under the original brief constraints; use .omo/ulw-loop/kakao-emoticon/ledger.jsonl as the audit trail.",
+      "status": "complete",
+      "tokensUsed": 179869,
+      "timeUsedSeconds": 367,
+      "createdAt": 1782953813,
+      "updatedAt": 1782954181
+    }
+  }
+}

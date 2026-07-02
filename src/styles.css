@@ -234,12 +234,13 @@ h1 {
   overflow: hidden;
   border: 1px solid var(--border-default);
   border-radius: 16px;
-  background: linear-gradient(135deg, var(--surface-soft), var(--surface-secondary));
+  background: var(--surface-secondary);
 }
 
 .image-frame img {
   display: block;
-  width: 100%;
+  width: auto;
+  max-width: 100%;
   height: auto;
   max-height: 72dvh;
   object-fit: contain;

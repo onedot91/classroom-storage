@@ -1,0 +1,68 @@
+[
+  {
+    "file": "public/students/00/like.png",
+    "size": [
+      360,
+      360
+    ],
+    "bytes": 171295,
+    "over_target_240": true,
+    "over_120kb": true,
+    "alpha_bbox": [
+      17,
+      10,
+      342,
+      350
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "public/students/00/thanks.png",
+    "size": [
+      360,
+      360
+    ],
+    "bytes": 176410,
+    "over_target_240": true,
+    "over_120kb": true,
+    "alpha_bbox": [
+      22,
+      10,
+      338,
+      350
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "public/students/00/done.png",
+    "size": [
+      360,
+      360
+    ],
+    "bytes": 180550,
+    "over_target_240": true,
+    "over_120kb": true,
+    "alpha_bbox": [
+      22,
+      10,
+      337,
+      350
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+]

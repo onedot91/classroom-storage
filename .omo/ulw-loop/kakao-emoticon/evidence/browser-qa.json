@@ -1,0 +1,41 @@
+{
+  "url": "http://127.0.0.1:5174/student/0",
+  "title": "그림을 꾹 눌러 저장해요",
+  "cardCount": 3,
+  "largeViewLinks": 0,
+  "saveHints": [
+    "꾹 눌러 저장",
+    "꾹 눌러 저장",
+    "꾹 눌러 저장"
+  ],
+  "images": [
+    {
+      "src": "/students/00/like.png",
+      "currentSrc": "http://127.0.0.1:5174/students/00/like.png",
+      "naturalWidth": 240,
+      "naturalHeight": 240,
+      "renderedWidth": 240,
+      "renderedHeight": 240,
+      "alt": "좋아요 이미지"
+    },
+    {
+      "src": "/students/00/thanks.png",
+      "currentSrc": "http://127.0.0.1:5174/students/00/thanks.png",
+      "naturalWidth": 240,
+      "naturalHeight": 240,
+      "renderedWidth": 240,
+      "renderedHeight": 240,
+      "alt": "고마워요 이미지"
+    },
+    {
+      "src": "/students/00/done.png",
+      "currentSrc": "http://127.0.0.1:5174/students/00/done.png",
+      "naturalWidth": 240,
+      "naturalHeight": 240,
+      "renderedWidth": 240,
+      "renderedHeight": 240,
+      "alt": "다했어요 이미지"
+    }
+  ],
+  "pass": true
+}

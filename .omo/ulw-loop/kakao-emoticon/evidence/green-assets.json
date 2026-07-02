@@ -1,0 +1,68 @@
+[
+  {
+    "file": "public/students/00/like.png",
+    "size": [
+      240,
+      240
+    ],
+    "mode": "RGBA",
+    "bytes": 84558,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alpha_bbox": [
+      11,
+      6,
+      229,
+      234
+    ],
+    "pass": true
+  },
+  {
+    "file": "public/students/00/thanks.png",
+    "size": [
+      240,
+      240
+    ],
+    "mode": "RGBA",
+    "bytes": 88433,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alpha_bbox": [
+      14,
+      6,
+      226,
+      234
+    ],
+    "pass": true
+  },
+  {
+    "file": "public/students/00/done.png",
+    "size": [
+      240,
+      240
+    ],
+    "mode": "RGBA",
+    "bytes": 90198,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alpha_bbox": [
+      14,
+      6,
+      225,
+      234
+    ],
+    "pass": true
+  }
+]
