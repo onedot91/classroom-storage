@@ -221,6 +221,11 @@ h1 {
   box-shadow: var(--shadow-default);
 }
 
+.save-button:disabled {
+  cursor: wait;
+  opacity: 0.72;
+}
+
 .materials {
   display: grid;
   gap: var(--space-5);

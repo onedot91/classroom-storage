@@ -107,7 +107,7 @@ All spacing derives from 4px.
 - **Variants**: normal, image-error.
 - **Spacing**: `--space-4` to `--space-6`.
 - **States**: default, image loading failure.
-- **Accessibility**: image has alt text; save button uses the direct image path with `download`.
+- **Accessibility**: image has alt text; save button opens native file sharing when available and falls back to PNG download.
 - **Motion**: card uses static depth; image long-press is never blocked.
 
 ### Empty State

@@ -81,7 +81,7 @@ export function StudentPage(props: {
       </nav>
       <header className="student-header">
         <p className="site-kicker">{props.number}번 자료</p>
-        <h1>저장 버튼을 눌러요</h1>
+        <h1>사진첩에 저장해요</h1>
       </header>
       <MaterialList folder={folder} loadState={loadState} />
     </main>
@@ -128,7 +128,26 @@ function MaterialCard(props: {
   readonly item: MaterialItem;
 }): React.JSX.Element {
   const [imageFailed, setImageFailed] = useState(false);
+  const [saveState, setSaveState] = useState<"idle" | "saving" | "error">("idle");
   const imagePath = `/students/${props.folder}/${props.item.file}`;
+
+  const handleSave = async (): Promise<void> => {
+    setSaveState("saving");
+    try {
+      await saveImageFile({
+        fileName: props.item.file,
+        imagePath,
+        title: props.item.title,
+      });
+      setSaveState("idle");
+    } catch (error: unknown) {
+      if (error instanceof DOMException && error.name === "AbortError") {
+        setSaveState("idle");
+        return;
+      }
+      setSaveState("error");
+    }
+  };
 
   return (
     <article className="material-card">
@@ -146,9 +165,59 @@ function MaterialCard(props: {
           />
         )}
       </div>
-      <a className="save-button" href={imagePath} download={props.item.file}>
-        이미지 저장
-      </a>
+      <button
+        className="save-button"
+        type="button"
+        onClick={() => void handleSave()}
+        disabled={saveState === "saving"}
+      >
+        저장
+      </button>
     </article>
   );
+}
+
+async function saveImageFile(params: {
+  readonly imagePath: string;
+  readonly fileName: string;
+  readonly title: string;
+}): Promise<void> {
+  const response = await fetch(params.imagePath);
+  if (!response.ok) {
+    throw new ImageSaveError(params.imagePath, response.status);
+  }
+
+  const blob = await response.blob();
+  const file = new File([blob], params.fileName, { type: blob.type || "image/png" });
+  const shareData: ShareData = {
+    files: [file],
+    title: params.title,
+  };
+
+  if (navigator.canShare?.(shareData) === true && navigator.share !== undefined) {
+    await navigator.share(shareData);
+    return;
+  }
+
+  downloadImageFile(file);
+}
+
+function downloadImageFile(file: File): void {
+  const objectUrl = URL.createObjectURL(file);
+  const link = document.createElement("a");
+  link.href = objectUrl;
+  link.download = file.name;
+  document.body.append(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(objectUrl);
+}
+
+class ImageSaveError extends Error {
+  constructor(
+    readonly imagePath: string,
+    readonly status: number,
+  ) {
+    super(`Failed to load image for saving: ${imagePath} (${status})`);
+  }
 }
