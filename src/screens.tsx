@@ -147,9 +147,6 @@ function MaterialCard(props: {
         )}
       </div>
       <p className="save-hint">꾹 눌러 저장</p>
-      <a className="image-link" href={imagePath} target="_blank" rel="noreferrer" download={props.item.file}>
-        크게 보기
-      </a>
     </article>
   );
 }

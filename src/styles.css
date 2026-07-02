@@ -163,8 +163,7 @@ h1 {
 .number-button:focus-visible,
 .primary-button:focus-visible,
 .secondary-button:focus-visible,
-.small-button:focus-visible,
-.image-link:focus-visible {
+.small-button:focus-visible {
   outline: 4px solid rgb(255 184 77 / 0.7);
   outline-offset: 3px;
 }
@@ -261,17 +260,6 @@ h1 {
   font-size: 17px;
   font-weight: 800;
   text-align: center;
-}
-
-.image-link {
-  display: inline-flex;
-  min-height: 36px;
-  align-items: center;
-  justify-content: center;
-  color: var(--status-info);
-  font-weight: 800;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 4px;
 }
 
 .empty-panel {
