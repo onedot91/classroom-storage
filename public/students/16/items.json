@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "title": "더워",
+    "file": "hot.png"
+  },
+  {
+    "title": "뭐해",
+    "file": "what-are-you-doing.png"
+  },
+  {
+    "title": "게임하고 싶정",
+    "file": "playing-game.png"
+  }
+]

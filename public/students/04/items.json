@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "title": "고마워",
+    "file": "thank-you.png"
+  },
+  {
+    "title": "꼬르륵",
+    "file": "hungry.png"
+  },
+  {
+    "title": "심심해",
+    "file": "bored.png"
+  }
+]

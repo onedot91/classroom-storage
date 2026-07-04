@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "title": "휴가중",
+    "file": "on-vacation.png"
+  },
+  {
+    "title": "아픈",
+    "file": "sick.png"
+  },
+  {
+    "title": "놀자",
+    "file": "play.png"
+  }
+]

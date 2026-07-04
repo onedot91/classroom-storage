@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "title": "나 오늘 백점",
+    "file": "today-one-hundred.png"
+  },
+  {
+    "title": "배고파",
+    "file": "hungry.png"
+  },
+  {
+    "title": "답장해줘",
+    "file": "reply-please.png"
+  }
+]
