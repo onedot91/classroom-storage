@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "title": "깜짝 놀랐어요",
+    "file": "surprised.png"
+  },
+  {
+    "title": "기뻐요",
+    "file": "happy.png"
+  },
+  {
+    "title": "속상해요",
+    "file": "sad.png"
+  }
+]

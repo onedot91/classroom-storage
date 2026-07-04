@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "title": "몬스터",
+    "file": "monster-purple.png"
+  },
+  {
+    "title": "몬스터",
+    "file": "monster-green.png"
+  },
+  {
+    "title": "몬스터",
+    "file": "monster-orange.png"
+  }
+]

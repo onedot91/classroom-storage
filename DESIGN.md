@@ -13,6 +13,8 @@
 | Surface/primary | --surface-primary | #f7fbff | #111827 | Page background |
 | Surface/secondary | --surface-secondary | #ffffff | #1f2937 | Cards and panels |
 | Surface/soft | --surface-soft | #eef7ff | #243447 | Instruction areas |
+| Surface/checker-light | --surface-checker-light | #ffffff | #1f2937 | Transparent image preview tiles |
+| Surface/checker-dark | --surface-checker-dark | #e8f1fb | #334155 | Transparent image preview tiles |
 | Text/primary | --text-primary | #182235 | #f9fafb | Headlines and body |
 | Text/secondary | --text-secondary | #526174 | #cbd5e1 | Hints |
 | Text/inverse | --text-inverse | #ffffff | #111827 | Accent buttons |
@@ -109,6 +111,13 @@ All spacing derives from 4px.
 - **States**: default, image loading failure.
 - **Accessibility**: image has alt text; save button opens native file sharing when available and falls back to PNG download.
 - **Motion**: card uses static depth; image long-press is never blocked.
+
+### Image Frame
+- **Structure**: bordered preview well inside a material card.
+- **Variants**: checker background for transparent PNG/SVG previews, image-error.
+- **Spacing**: fixed minimum height with centered image.
+- **Accessibility**: decorative checker pattern must stay subtle and never reduce image legibility.
+- **Motion**: none.
 
 ### Save Sheet
 - **Structure**: full-screen overlay with one large image, one short instruction, and close action.

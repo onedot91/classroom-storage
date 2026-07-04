@@ -3,6 +3,8 @@
   --surface-primary: #f7fbff;
   --surface-secondary: #ffffff;
   --surface-soft: #eef7ff;
+  --surface-checker-light: #ffffff;
+  --surface-checker-dark: #e8f1fb;
   --text-primary: #182235;
   --text-secondary: #526174;
   --text-inverse: #ffffff;
@@ -259,7 +261,18 @@ h1 {
   overflow: hidden;
   border: 1px solid var(--border-default);
   border-radius: 16px;
-  background: var(--surface-secondary);
+  background:
+    linear-gradient(45deg, var(--surface-checker-dark) 25%, transparent 25%),
+    linear-gradient(-45deg, var(--surface-checker-dark) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, var(--surface-checker-dark) 75%),
+    linear-gradient(-45deg, transparent 75%, var(--surface-checker-dark) 75%),
+    var(--surface-checker-light);
+  background-position:
+    0 0,
+    0 12px,
+    12px -12px,
+    -12px 0;
+  background-size: 24px 24px;
 }
 
 .image-frame img {
@@ -280,7 +293,18 @@ h1 {
   gap: var(--space-4);
   padding: max(var(--space-4), env(safe-area-inset-top)) var(--space-4)
     max(var(--space-4), env(safe-area-inset-bottom));
-  background: var(--surface-secondary);
+  background:
+    linear-gradient(45deg, var(--surface-checker-dark) 25%, transparent 25%),
+    linear-gradient(-45deg, var(--surface-checker-dark) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, var(--surface-checker-dark) 75%),
+    linear-gradient(-45deg, transparent 75%, var(--surface-checker-dark) 75%),
+    var(--surface-checker-light);
+  background-position:
+    0 0,
+    0 12px,
+    12px -12px,
+    -12px 0;
+  background-size: 24px 24px;
 }
 
 .save-sheet-toolbar {
@@ -288,6 +312,11 @@ h1 {
   align-items: center;
   justify-content: space-between;
   gap: var(--space-3);
+  padding: var(--space-3);
+  border: 1px solid var(--border-default);
+  border-radius: 16px;
+  background: rgb(255 255 255 / 0.94);
+  box-shadow: var(--shadow-subtle);
 }
 
 .save-sheet-toolbar p {

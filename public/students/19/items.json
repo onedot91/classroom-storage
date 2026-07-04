@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "title": "화이팅",
+    "file": "fighting.png"
+  },
+  {
+    "title": "쾅쾅",
+    "file": "boom.png"
+  },
+  {
+    "title": "슬퍼",
+    "file": "sad.png"
+  }
+]
