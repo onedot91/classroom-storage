@@ -110,6 +110,14 @@ All spacing derives from 4px.
 - **Accessibility**: image has alt text; save button opens native file sharing when available and falls back to PNG download.
 - **Motion**: card uses static depth; image long-press is never blocked.
 
+### Save Sheet
+- **Structure**: full-screen overlay with one large image, one short instruction, and close action.
+- **Variants**: default.
+- **Spacing**: `--space-4` to `--space-6`.
+- **States**: open, closed.
+- **Accessibility**: opened by the save button, uses `role="dialog"`, and keeps the image available for native long-press saving.
+- **Motion**: none.
+
 ### Empty State
 - **Structure**: simple panel with one sentence and return action.
 - **Variants**: missing items, invalid student number.

@@ -81,7 +81,7 @@ export function StudentPage(props: {
       </nav>
       <header className="student-header">
         <p className="site-kicker">{props.number}번 자료</p>
-        <h1>사진첩에 저장해요</h1>
+        <h1>사진 저장하기</h1>
       </header>
       <MaterialList folder={folder} loadState={loadState} />
     </main>
@@ -128,26 +128,8 @@ function MaterialCard(props: {
   readonly item: MaterialItem;
 }): React.JSX.Element {
   const [imageFailed, setImageFailed] = useState(false);
-  const [saveState, setSaveState] = useState<"idle" | "saving" | "error">("idle");
+  const [isSaveSheetOpen, setIsSaveSheetOpen] = useState(false);
   const imagePath = `/students/${props.folder}/${props.item.file}`;
-
-  const handleSave = async (): Promise<void> => {
-    setSaveState("saving");
-    try {
-      await saveImageFile({
-        fileName: props.item.file,
-        imagePath,
-        title: props.item.title,
-      });
-      setSaveState("idle");
-    } catch (error: unknown) {
-      if (error instanceof DOMException && error.name === "AbortError") {
-        setSaveState("idle");
-        return;
-      }
-      setSaveState("error");
-    }
-  };
 
   return (
     <article className="material-card">
@@ -168,56 +150,39 @@ function MaterialCard(props: {
       <button
         className="save-button"
         type="button"
-        onClick={() => void handleSave()}
-        disabled={saveState === "saving"}
+        onClick={() => setIsSaveSheetOpen(true)}
       >
         저장
       </button>
+      {isSaveSheetOpen ? (
+        <SaveSheet
+          imagePath={imagePath}
+          title={props.item.title}
+          onClose={() => setIsSaveSheetOpen(false)}
+        />
+      ) : null}
     </article>
   );
 }
 
-async function saveImageFile(params: {
+function SaveSheet(props: {
   readonly imagePath: string;
-  readonly fileName: string;
   readonly title: string;
-}): Promise<void> {
-  const response = await fetch(params.imagePath);
-  if (!response.ok) {
-    throw new ImageSaveError(params.imagePath, response.status);
-  }
-
-  const blob = await response.blob();
-  const file = new File([blob], params.fileName, { type: blob.type || "image/png" });
-  const shareData: ShareData = {
-    files: [file],
-    title: params.title,
-  };
-
-  if (navigator.share !== undefined && navigator.canShare?.(shareData) !== false) {
-    await navigator.share(shareData);
-    return;
-  }
-
-  downloadImageFile(file);
-}
-
-function downloadImageFile(file: File): void {
-  const objectUrl = URL.createObjectURL(file);
-  const link = document.createElement("a");
-  link.href = objectUrl;
-  link.download = file.name;
-  document.body.append(link);
-  link.click();
-  link.remove();
-  URL.revokeObjectURL(objectUrl);
-}
-
-class ImageSaveError extends Error {
-  constructor(
-    readonly imagePath: string,
-    readonly status: number,
-  ) {
-    super(`Failed to load image for saving: ${imagePath} (${status})`);
-  }
+  readonly onClose: () => void;
+}): React.JSX.Element {
+  return (
+    <div className="save-sheet" role="dialog" aria-modal="true" aria-label="사진 저장">
+      <div className="save-sheet-toolbar">
+        <p>사진을 길게 눌러 저장해요.</p>
+        <button className="secondary-button" type="button" onClick={props.onClose}>
+          닫기
+        </button>
+      </div>
+      <img
+        className="save-sheet-image"
+        src={props.imagePath}
+        alt={`${props.title} 저장용 이미지`}
+      />
+    </div>
+  );
 }
