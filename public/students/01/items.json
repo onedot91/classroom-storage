@@ -2,5 +2,17 @@
   {
     "title": "샘플 캐릭터 이미지",
     "file": "sample-material.svg"
+  },
+  {
+    "title": "안녕",
+    "file": "hello.png"
+  },
+  {
+    "title": "잘 자",
+    "file": "good-night.png"
+  },
+  {
+    "title": "뭐해",
+    "file": "what-are-you-doing.png"
   }
 ]

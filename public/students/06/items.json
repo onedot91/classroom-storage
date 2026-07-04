@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "title": "놀자",
+    "file": "play.png"
+  },
+  {
+    "title": "사랑해",
+    "file": "love.png"
+  },
+  {
+    "title": "안녕",
+    "file": "hello.png"
+  }
+]

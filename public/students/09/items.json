@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "title": "사랑해요",
+    "file": "love-you.png"
+  },
+  {
+    "title": "신나요",
+    "file": "excited.png"
+  },
+  {
+    "title": "힘내요",
+    "file": "cheer-up.png"
+  }
+]
