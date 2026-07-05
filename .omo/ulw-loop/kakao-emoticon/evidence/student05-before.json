@@ -1,0 +1,71 @@
+[
+  {
+    "file": "public/students/05/happy.png",
+    "size": [
+      240,
+      240
+    ],
+    "bbox": [
+      8,
+      16,
+      232,
+      223
+    ],
+    "margins": [
+      8,
+      16,
+      8,
+      17
+    ],
+    "content": [
+      224,
+      207
+    ]
+  },
+  {
+    "file": "public/students/05/melon.png",
+    "size": [
+      240,
+      240
+    ],
+    "bbox": [
+      19,
+      8,
+      220,
+      232
+    ],
+    "margins": [
+      19,
+      8,
+      20,
+      8
+    ],
+    "content": [
+      201,
+      224
+    ]
+  },
+  {
+    "file": "public/students/05/what-are-you-doing.png",
+    "size": [
+      240,
+      240
+    ],
+    "bbox": [
+      8,
+      13,
+      232,
+      227
+    ],
+    "margins": [
+      8,
+      13,
+      8,
+      13
+    ],
+    "content": [
+      224,
+      214
+    ]
+  }
+]

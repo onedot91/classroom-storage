@@ -1,0 +1,1226 @@
+[
+  {
+    "file": "public/students/00/done.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      35,
+      24,
+      36,
+      24
+    ],
+    "content": [
+      249,
+      272
+    ]
+  },
+  {
+    "file": "public/students/00/like.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      30,
+      24,
+      31,
+      24
+    ],
+    "content": [
+      259,
+      272
+    ]
+  },
+  {
+    "file": "public/students/00/thanks.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      35,
+      24,
+      36,
+      24
+    ],
+    "content": [
+      249,
+      272
+    ]
+  },
+  {
+    "file": "public/students/01/good-night.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      36,
+      24,
+      36
+    ],
+    "content": [
+      272,
+      248
+    ]
+  },
+  {
+    "file": "public/students/01/hello.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      29,
+      24,
+      30
+    ],
+    "content": [
+      272,
+      261
+    ]
+  },
+  {
+    "file": "public/students/01/what-are-you-doing.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      31,
+      24,
+      32,
+      24
+    ],
+    "content": [
+      257,
+      272
+    ]
+  },
+  {
+    "file": "public/students/02/busy.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      54,
+      24,
+      54
+    ],
+    "content": [
+      272,
+      212
+    ]
+  },
+  {
+    "file": "public/students/02/fighting.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      37,
+      24,
+      37
+    ],
+    "content": [
+      272,
+      246
+    ]
+  },
+  {
+    "file": "public/students/02/play.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      43,
+      24,
+      44
+    ],
+    "content": [
+      272,
+      233
+    ]
+  },
+  {
+    "file": "public/students/03/monster-green.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      49,
+      24,
+      50
+    ],
+    "content": [
+      272,
+      221
+    ]
+  },
+  {
+    "file": "public/students/03/monster-orange.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      24,
+      24,
+      25
+    ],
+    "content": [
+      272,
+      271
+    ]
+  },
+  {
+    "file": "public/students/03/monster-purple.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      47,
+      24,
+      47
+    ],
+    "content": [
+      272,
+      226
+    ]
+  },
+  {
+    "file": "public/students/04/bored.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      30,
+      24,
+      30
+    ],
+    "content": [
+      272,
+      260
+    ]
+  },
+  {
+    "file": "public/students/04/hungry.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      38,
+      24,
+      38,
+      24
+    ],
+    "content": [
+      244,
+      272
+    ]
+  },
+  {
+    "file": "public/students/04/thank-you.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      52,
+      24,
+      53
+    ],
+    "content": [
+      272,
+      215
+    ]
+  },
+  {
+    "file": "public/students/05/happy.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      34,
+      24,
+      35
+    ],
+    "content": [
+      272,
+      251
+    ]
+  },
+  {
+    "file": "public/students/05/melon.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      38,
+      24,
+      38,
+      24
+    ],
+    "content": [
+      244,
+      272
+    ]
+  },
+  {
+    "file": "public/students/05/what-are-you-doing.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      30,
+      24,
+      30
+    ],
+    "content": [
+      272,
+      260
+    ]
+  },
+  {
+    "file": "public/students/06/hello.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      58,
+      24,
+      59,
+      24
+    ],
+    "content": [
+      203,
+      272
+    ]
+  },
+  {
+    "file": "public/students/06/love.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      53,
+      24,
+      53,
+      24
+    ],
+    "content": [
+      214,
+      272
+    ]
+  },
+  {
+    "file": "public/students/06/play.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      44,
+      24,
+      45
+    ],
+    "content": [
+      272,
+      231
+    ]
+  },
+  {
+    "file": "public/students/07/love-you.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      41,
+      24,
+      42,
+      24
+    ],
+    "content": [
+      237,
+      272
+    ]
+  },
+  {
+    "file": "public/students/07/on-vacation.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      46,
+      24,
+      47,
+      24
+    ],
+    "content": [
+      227,
+      272
+    ]
+  },
+  {
+    "file": "public/students/07/thank-you.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      26,
+      24,
+      26
+    ],
+    "content": [
+      272,
+      268
+    ]
+  },
+  {
+    "file": "public/students/08/friend.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      54,
+      24,
+      54,
+      24
+    ],
+    "content": [
+      212,
+      272
+    ]
+  },
+  {
+    "file": "public/students/08/surprised.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      34,
+      24,
+      35,
+      24
+    ],
+    "content": [
+      251,
+      272
+    ]
+  },
+  {
+    "file": "public/students/08/yay.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      69,
+      24,
+      69,
+      24
+    ],
+    "content": [
+      182,
+      272
+    ]
+  },
+  {
+    "file": "public/students/09/cheer-up.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      29,
+      24,
+      30,
+      24
+    ],
+    "content": [
+      261,
+      272
+    ]
+  },
+  {
+    "file": "public/students/09/excited.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      32,
+      24,
+      33,
+      24
+    ],
+    "content": [
+      255,
+      272
+    ]
+  },
+  {
+    "file": "public/students/09/love-you.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      34,
+      24,
+      35
+    ],
+    "content": [
+      272,
+      251
+    ]
+  },
+  {
+    "file": "public/students/10/hungry.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      52,
+      24,
+      53,
+      24
+    ],
+    "content": [
+      215,
+      272
+    ]
+  },
+  {
+    "file": "public/students/10/reply-please.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      42,
+      24,
+      42,
+      24
+    ],
+    "content": [
+      236,
+      272
+    ]
+  },
+  {
+    "file": "public/students/10/today-one-hundred.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      27,
+      24,
+      27,
+      24
+    ],
+    "content": [
+      266,
+      272
+    ]
+  },
+  {
+    "file": "public/students/11/angry-1.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      24,
+      24,
+      24
+    ],
+    "content": [
+      272,
+      272
+    ]
+  },
+  {
+    "file": "public/students/11/question-1.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      24,
+      24,
+      24
+    ],
+    "content": [
+      272,
+      272
+    ]
+  },
+  {
+    "file": "public/students/11/surprise-1.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      24,
+      24,
+      24
+    ],
+    "content": [
+      272,
+      272
+    ]
+  },
+  {
+    "file": "public/students/12/good-night.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      25,
+      24,
+      25,
+      24
+    ],
+    "content": [
+      270,
+      272
+    ]
+  },
+  {
+    "file": "public/students/12/lets-play.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      26,
+      24,
+      27
+    ],
+    "content": [
+      272,
+      267
+    ]
+  },
+  {
+    "file": "public/students/12/what.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      31,
+      24,
+      32
+    ],
+    "content": [
+      272,
+      257
+    ]
+  },
+  {
+    "file": "public/students/13/busy.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      25,
+      24,
+      25
+    ],
+    "content": [
+      272,
+      270
+    ]
+  },
+  {
+    "file": "public/students/13/happy.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      26,
+      24,
+      26,
+      24
+    ],
+    "content": [
+      268,
+      272
+    ]
+  },
+  {
+    "file": "public/students/13/love.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      24,
+      24,
+      25
+    ],
+    "content": [
+      272,
+      271
+    ]
+  },
+  {
+    "file": "public/students/14/ah.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      26,
+      24,
+      27
+    ],
+    "content": [
+      272,
+      267
+    ]
+  },
+  {
+    "file": "public/students/14/laser-beam.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      27,
+      24,
+      27
+    ],
+    "content": [
+      272,
+      266
+    ]
+  },
+  {
+    "file": "public/students/14/sad.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      51,
+      24,
+      52
+    ],
+    "content": [
+      272,
+      217
+    ]
+  },
+  {
+    "file": "public/students/15/angry.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      45,
+      24,
+      46
+    ],
+    "content": [
+      272,
+      229
+    ]
+  },
+  {
+    "file": "public/students/15/not-playing-with-me.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      47,
+      24,
+      47
+    ],
+    "content": [
+      272,
+      226
+    ]
+  },
+  {
+    "file": "public/students/15/on-vacation.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      52,
+      24,
+      52
+    ],
+    "content": [
+      272,
+      216
+    ]
+  },
+  {
+    "file": "public/students/16/hot.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      26,
+      24,
+      26
+    ],
+    "content": [
+      272,
+      268
+    ]
+  },
+  {
+    "file": "public/students/16/playing-game.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      43,
+      24,
+      43
+    ],
+    "content": [
+      272,
+      234
+    ]
+  },
+  {
+    "file": "public/students/16/what-are-you-doing.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      35,
+      24,
+      36
+    ],
+    "content": [
+      272,
+      249
+    ]
+  },
+  {
+    "file": "public/students/17/bored.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      27,
+      24,
+      28
+    ],
+    "content": [
+      272,
+      265
+    ]
+  },
+  {
+    "file": "public/students/17/fighting.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      26,
+      24,
+      27
+    ],
+    "content": [
+      272,
+      267
+    ]
+  },
+  {
+    "file": "public/students/17/what-are-you-doing.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      30,
+      24,
+      30,
+      24
+    ],
+    "content": [
+      260,
+      272
+    ]
+  },
+  {
+    "file": "public/students/18/happy.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      30,
+      24,
+      31,
+      24
+    ],
+    "content": [
+      259,
+      272
+    ]
+  },
+  {
+    "file": "public/students/18/sad.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      33,
+      24,
+      33,
+      24
+    ],
+    "content": [
+      254,
+      272
+    ]
+  },
+  {
+    "file": "public/students/18/surprised.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      26,
+      24,
+      26
+    ],
+    "content": [
+      272,
+      268
+    ]
+  },
+  {
+    "file": "public/students/19/boom.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      35,
+      24,
+      36
+    ],
+    "content": [
+      272,
+      249
+    ]
+  },
+  {
+    "file": "public/students/19/fighting.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      36,
+      24,
+      36
+    ],
+    "content": [
+      272,
+      248
+    ]
+  },
+  {
+    "file": "public/students/19/sad.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      73,
+      24,
+      73
+    ],
+    "content": [
+      272,
+      174
+    ]
+  },
+  {
+    "file": "public/students/20/on-vacation.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      26,
+      24,
+      27,
+      24
+    ],
+    "content": [
+      267,
+      272
+    ]
+  },
+  {
+    "file": "public/students/20/play.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      31,
+      24,
+      32,
+      24
+    ],
+    "content": [
+      257,
+      272
+    ]
+  },
+  {
+    "file": "public/students/20/sick.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      27,
+      24,
+      27,
+      24
+    ],
+    "content": [
+      266,
+      272
+    ]
+  },
+  {
+    "file": "public/students/21/bored.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      46,
+      24,
+      46,
+      24
+    ],
+    "content": [
+      228,
+      272
+    ]
+  },
+  {
+    "file": "public/students/21/hello.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      37,
+      24,
+      38,
+      24
+    ],
+    "content": [
+      245,
+      272
+    ]
+  },
+  {
+    "file": "public/students/21/love.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      44,
+      24,
+      45,
+      24
+    ],
+    "content": [
+      231,
+      272
+    ]
+  },
+  {
+    "file": "public/students/22/hungry.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      31,
+      24,
+      32
+    ],
+    "content": [
+      272,
+      257
+    ]
+  },
+  {
+    "file": "public/students/22/lots-to-eat.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      29,
+      24,
+      30
+    ],
+    "content": [
+      272,
+      261
+    ]
+  },
+  {
+    "file": "public/students/22/nothing-to-eat.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      27,
+      24,
+      28
+    ],
+    "content": [
+      272,
+      265
+    ]
+  },
+  {
+    "file": "public/students/23/contact.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      58,
+      24,
+      58
+    ],
+    "content": [
+      272,
+      204
+    ]
+  },
+  {
+    "file": "public/students/23/hungry.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      55,
+      24,
+      55
+    ],
+    "content": [
+      272,
+      210
+    ]
+  },
+  {
+    "file": "public/students/23/vacation.png",
+    "size": [
+      320,
+      320
+    ],
+    "margins": [
+      24,
+      40,
+      24,
+      41
+    ],
+    "content": [
+      272,
+      239
+    ]
+  }
+]

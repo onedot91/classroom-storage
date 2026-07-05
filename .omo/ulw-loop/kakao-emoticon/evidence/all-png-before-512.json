@@ -1,0 +1,1298 @@
+[
+  {
+    "file": "public/students/00/done.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      35,
+      24,
+      284,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/00/like.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      30,
+      24,
+      289,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/00/thanks.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      35,
+      24,
+      284,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/01/good-night.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      36,
+      296,
+      284
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/01/hello.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      29,
+      296,
+      290
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/01/what-are-you-doing.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      31,
+      24,
+      288,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/02/busy.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      54,
+      296,
+      266
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/02/fighting.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      37,
+      296,
+      283
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/02/play.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      43,
+      296,
+      276
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/03/monster-green.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      49,
+      296,
+      270
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/03/monster-orange.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      24,
+      296,
+      295
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/03/monster-purple.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      47,
+      296,
+      273
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/04/bored.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      30,
+      296,
+      290
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/04/hungry.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      38,
+      24,
+      282,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/04/thank-you.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      52,
+      296,
+      267
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/05/happy.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      34,
+      296,
+      285
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/05/melon.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      38,
+      24,
+      282,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/05/what-are-you-doing.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      30,
+      296,
+      290
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/06/hello.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      58,
+      24,
+      261,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/06/love.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      53,
+      24,
+      267,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/06/play.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      44,
+      296,
+      275
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/07/love-you.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      41,
+      24,
+      278,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/07/on-vacation.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      46,
+      24,
+      273,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/07/thank-you.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      26,
+      296,
+      294
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/08/friend.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      54,
+      24,
+      266,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/08/surprised.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      34,
+      24,
+      285,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/08/yay.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      69,
+      24,
+      251,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/09/cheer-up.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      29,
+      24,
+      290,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/09/excited.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      32,
+      24,
+      287,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/09/love-you.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      34,
+      296,
+      285
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/10/hungry.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      52,
+      24,
+      267,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/10/reply-please.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      42,
+      24,
+      278,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/10/today-one-hundred.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      27,
+      24,
+      293,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/11/angry-1.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      24,
+      296,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/11/question-1.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      24,
+      296,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/11/surprise-1.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      24,
+      296,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/12/good-night.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      25,
+      24,
+      295,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/12/lets-play.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      26,
+      296,
+      293
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/12/what.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      31,
+      296,
+      288
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/13/busy.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      25,
+      296,
+      295
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/13/happy.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      26,
+      24,
+      294,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/13/love.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      24,
+      296,
+      295
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/14/ah.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      26,
+      296,
+      293
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/14/laser-beam.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      27,
+      296,
+      293
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/14/sad.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      51,
+      296,
+      268
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/15/angry.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      45,
+      296,
+      274
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/15/not-playing-with-me.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      47,
+      296,
+      273
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/15/on-vacation.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      52,
+      296,
+      268
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/16/hot.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      26,
+      296,
+      294
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/16/playing-game.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      43,
+      296,
+      277
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/16/what-are-you-doing.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      35,
+      296,
+      284
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/17/bored.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      27,
+      296,
+      292
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/17/fighting.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      26,
+      296,
+      293
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/17/what-are-you-doing.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      30,
+      24,
+      290,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/18/happy.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      30,
+      24,
+      289,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/18/sad.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      33,
+      24,
+      287,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/18/surprised.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      26,
+      296,
+      294
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/19/boom.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      35,
+      296,
+      284
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/19/fighting.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      36,
+      296,
+      284
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/19/sad.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      73,
+      296,
+      247
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/20/on-vacation.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      26,
+      24,
+      293,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/20/play.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      31,
+      24,
+      288,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/20/sick.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      27,
+      24,
+      293,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/21/bored.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      46,
+      24,
+      274,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/21/hello.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      37,
+      24,
+      282,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/21/love.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      44,
+      24,
+      275,
+      296
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/22/hungry.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      31,
+      296,
+      288
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/22/lots-to-eat.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      29,
+      296,
+      290
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/22/nothing-to-eat.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      27,
+      296,
+      292
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/23/contact.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      58,
+      296,
+      262
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/23/hungry.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      55,
+      296,
+      265
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "public/students/23/vacation.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      40,
+      296,
+      279
+    ],
+    "alpha_range": [
+      0,
+      255
+    ]
+  }
+]
