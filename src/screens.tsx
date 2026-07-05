@@ -129,7 +129,59 @@ function MaterialCard(props: {
 }): React.JSX.Element {
   const [imageFailed, setImageFailed] = useState(false);
   const [isSaveSheetOpen, setIsSaveSheetOpen] = useState(false);
+  const [shareStatus, setShareStatus] = useState<"idle" | "copied" | "failed">("idle");
   const imagePath = `/students/${props.folder}/${props.item.file}`;
+  const imageUrl = new URL(imagePath, window.location.origin).href;
+
+  async function shareMaterial(): Promise<void> {
+    setShareStatus("idle");
+
+    if (navigator.share !== undefined) {
+      try {
+        const response = await fetch(imagePath);
+        const blob = await response.blob();
+        const file = new File([blob], props.item.file, { type: blob.type });
+        const fileShareData = {
+          files: [file],
+          title: props.item.title,
+          text: `${props.item.title} 자료`,
+        };
+
+        if (navigator.canShare?.(fileShareData) === true) {
+          await navigator.share(fileShareData);
+          return;
+        }
+
+        await navigator.share({
+          title: props.item.title,
+          text: `${props.item.title} 자료`,
+          url: imageUrl,
+        });
+        return;
+      } catch (error: unknown) {
+        if (error instanceof DOMException && error.name === "AbortError") {
+          return;
+        }
+      }
+    }
+
+    if (navigator.clipboard === undefined) {
+      setShareStatus("failed");
+      return;
+    }
+
+    try {
+      await navigator.clipboard.writeText(imageUrl);
+      setShareStatus("copied");
+    } catch (error: unknown) {
+      if (error instanceof DOMException) {
+        setShareStatus("failed");
+        return;
+      }
+
+      throw error;
+    }
+  }
 
   return (
     <article className="material-card">
@@ -147,13 +199,28 @@ function MaterialCard(props: {
           />
         )}
       </div>
-      <button
-        className="save-button"
-        type="button"
-        onClick={() => setIsSaveSheetOpen(true)}
-      >
-        저장
-      </button>
+      <div className="material-actions">
+        <button
+          className="save-button"
+          type="button"
+          onClick={() => setIsSaveSheetOpen(true)}
+        >
+          저장
+        </button>
+        <button className="share-button" type="button" onClick={() => void shareMaterial()}>
+          공유
+        </button>
+      </div>
+      {shareStatus === "copied" ? (
+        <p className="share-status" role="status">
+          링크가 복사됐어요.
+        </p>
+      ) : null}
+      {shareStatus === "failed" ? (
+        <p className="share-status share-status-error" role="status">
+          공유할 수 없어요.
+        </p>
+      ) : null}
       {isSaveSheetOpen ? (
         <SaveSheet
           imagePath={imagePath}

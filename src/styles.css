@@ -132,7 +132,8 @@ h1 {
 .primary-button,
 .secondary-button,
 .small-button,
-.save-button {
+.save-button,
+.share-button {
   min-height: 48px;
   border: 1px solid transparent;
   border-radius: 16px;
@@ -162,7 +163,8 @@ h1 {
 .primary-button:active,
 .secondary-button:active,
 .small-button:active,
-.save-button:active {
+.save-button:active,
+.share-button:active {
   transform: translateY(1px) scale(0.99);
 }
 
@@ -170,7 +172,8 @@ h1 {
 .primary-button:focus-visible,
 .secondary-button:focus-visible,
 .small-button:focus-visible,
-.save-button:focus-visible {
+.save-button:focus-visible,
+.share-button:focus-visible {
   outline: 4px solid rgb(255 184 77 / 0.7);
   outline-offset: 3px;
 }
@@ -194,7 +197,8 @@ h1 {
 .primary-button,
 .secondary-button,
 .small-button,
-.save-button {
+.save-button,
+.share-button {
   padding: var(--space-3) var(--space-5);
   font-weight: 800;
 }
@@ -206,7 +210,8 @@ h1 {
 }
 
 .secondary-button,
-.small-button {
+.small-button,
+.share-button {
   border-color: var(--border-default);
   background: var(--surface-secondary);
   color: var(--text-primary);
@@ -219,18 +224,43 @@ h1 {
   font-size: 14px;
 }
 
-.save-button {
+.material-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-3);
+  justify-self: center;
+  width: min(100%, 380px);
+}
+
+.save-button,
+.share-button {
   display: inline-grid;
   place-items: center;
-  justify-self: center;
-  min-width: min(100%, 180px);
   text-decoration: none;
+}
+
+.save-button {
   box-shadow: var(--shadow-default);
 }
 
 .save-button:disabled {
   cursor: wait;
   opacity: 0.72;
+}
+
+.share-status {
+  min-height: 20px;
+  margin: calc(var(--space-2) * -1) 0 0;
+  color: var(--status-info);
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.45;
+  text-align: center;
+  word-break: keep-all;
+}
+
+.share-status-error {
+  color: var(--status-error);
 }
 
 .materials {

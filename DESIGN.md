@@ -105,12 +105,20 @@ All spacing derives from 4px.
 - **Motion**: transform on active only.
 
 ### Material Card
-- **Structure**: title, image frame, save button.
-- **Variants**: normal, image-error.
+- **Structure**: title, image frame, material actions.
+- **Variants**: normal, image-error, share-status.
 - **Spacing**: `--space-4` to `--space-6`.
-- **States**: default, image loading failure.
-- **Accessibility**: image has alt text; save button opens native file sharing when available and falls back to PNG download.
+- **States**: default, image loading failure, share copied, share failed.
+- **Accessibility**: image has alt text; save opens the long-press sheet and share uses native file sharing when available with link share or clipboard fallback.
 - **Motion**: card uses static depth; image long-press is never blocked.
+
+### Material Actions
+- **Structure**: two equal-width `button` controls in one row.
+- **Variants**: save primary, share secondary.
+- **Spacing**: `--space-3` gap.
+- **States**: default, hover, active, focus, share feedback.
+- **Accessibility**: clear text labels, 48px minimum touch targets, status text announced with `role="status"`.
+- **Motion**: transform on active only.
 
 ### Image Frame
 - **Structure**: bordered preview well inside a material card.
