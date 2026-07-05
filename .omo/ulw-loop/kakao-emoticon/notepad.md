@@ -30,3 +30,13 @@
   - `npm run build`: pass.
   - `items.json` references: 72 refs, 0 missing.
   - HTTP check: `/student/0`, `/student/5`, `/student/23`, and all 72 PNG URLs returned 200.
+
+## 2026-07-05 Mobile UI Fix
+
+- Issue: mobile Safari showed the 512px image preview/card layout overflowing horizontally after the 512px conversion.
+- Fix: removed the temporary mobile `inline-size`/`transform` rules, made `.image-frame` a real `aspect-ratio: 1` preview well, and removed `width`/`height` attributes from material card images so CSS controls responsive sizing.
+- Evidence:
+  - Build: `npm run build` pass.
+  - Mobile CDP emulation at 390 CSS px: `innerWidth=390`, `scrollWidth=390`, first card width `358`, image frame width `324`, actions width `324`.
+  - Screenshot: `.omo/ulw-loop/kakao-emoticon/evidence/mobile-ui-fix-student05-390-emulated.png`.
+  - Cleanup: Vite dev server and Chrome CDP process stopped; `lsof -i :5173` and `lsof -i :9223` returned empty.

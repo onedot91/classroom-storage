@@ -193,8 +193,6 @@ function MaterialCard(props: {
           <img
             src={imagePath}
             alt={`${props.item.title} 이미지`}
-            width="512"
-            height="512"
             onError={() => setImageFailed(true)}
           />
         )}

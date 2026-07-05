@@ -268,16 +268,11 @@ h1 {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   gap: var(--space-5);
-  width: 100%;
-  max-width: 100%;
-  min-width: 0;
 }
 
 .material-card {
   display: grid;
   gap: var(--space-3);
-  inline-size: calc(100vw - var(--space-8));
-  max-inline-size: 100%;
   min-width: 0;
   padding: var(--space-4);
   border: 1px solid var(--border-default);
@@ -295,8 +290,11 @@ h1 {
 .image-frame {
   display: grid;
   place-items: center;
+  width: 100%;
+  max-width: 100%;
   min-width: 0;
-  min-height: 220px;
+  aspect-ratio: 1;
+  min-height: 0;
   overflow: hidden;
   border: 1px solid var(--border-default);
   border-radius: 16px;
@@ -316,10 +314,11 @@ h1 {
 
 .image-frame img {
   display: block;
-  width: min(100%, 512px);
+  min-width: 0;
+  width: 100%;
   max-width: 100%;
-  height: auto;
-  max-height: min(72dvh, 512px);
+  height: 100%;
+  max-height: 100%;
   object-fit: contain;
 }
 
@@ -409,28 +408,6 @@ h1 {
   }
 }
 
-@media (max-width: 759.98px) {
-  .student-shell,
-  .materials,
-  .material-card {
-    inline-size: calc(100vw - var(--space-8));
-  }
-
-  .image-frame,
-  .image-frame img {
-    inline-size: calc(100vw - var(--space-8) - var(--space-8) - 2px);
-  }
-
-  .image-frame {
-    place-items: center start;
-  }
-
-  .image-frame img {
-    transform: scale(0.64);
-    transform-origin: left center;
-  }
-}
-
 @media (min-width: 760px) {
   .page-shell {
     padding: var(--space-10) var(--space-6) var(--space-12);
@@ -442,11 +419,6 @@ h1 {
 
   .materials {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .material-card {
-    inline-size: auto;
-    max-inline-size: none;
   }
 }
 
